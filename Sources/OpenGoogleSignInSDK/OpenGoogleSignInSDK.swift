@@ -39,7 +39,7 @@ public final class OpenGoogleSignIn: NSObject {
     public static let shared: OpenGoogleSignIn = OpenGoogleSignIn()
 
     /// API scopes requested by the app
-    public var scopes: Set<GoogleSignInScope> = [.email, .openID, .profile]
+    public var scopes: Set<GoogleSignInScope> = [.email, .openID, .profile,.youTube,.YoutubeReadonly,.YouTubeForceSsl]
 
     /// View controller to present Google sign-in flow.
     /// Needs to be set for presenting to work correctly.
